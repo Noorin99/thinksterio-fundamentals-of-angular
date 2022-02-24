@@ -4,7 +4,6 @@ import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { RouterModule } from '@angular/router';
 
-import { WatchListModule } from './watch-list-module/watch-list.module';
 
 
 import { AppComponent } from './app.component';
@@ -22,7 +21,6 @@ import { routingTable } from './routes';
   imports:      [ 
     BrowserModule, 
     FormsModule, HttpClientModule,
-    WatchListModule,
     RouterModule.forRoot(routingTable),
      ],
   declarations: [ 
